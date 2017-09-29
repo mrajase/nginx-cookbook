@@ -6,7 +6,7 @@ service 'nginx' do
    action [ :enable, start ]
 end
 
-cookbook_file "/var/www/html' do
+cookbook_file "/var/www/html" do
    source "index.html"
    mode "0644"
 end
